@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+}
+
+.navbar a:hover{
+    color: #FF6B00;
+}
+
+.carousel-image{
+    opacity: 1;
+    outline: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.offer-h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 74px;
+    text-decoration: solid;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.offer-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.offer-button button{
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    background-color: #FF6B00;
+    color: #fff;
+    padding: 8px 28px;
+    border-radius: 10px;
+}
+
+/*------------------------------- FEATURE -----------------------------*/
+
+.feature{
+    padding: 80px 0px 0px 0px;
+}
+
+.feature .box{
+    border-radius: 40px;
+    padding-bottom: 25px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature .product_name{
+    margin: 10px auto 15px;
+    font-family: 'Numans';
+}
+
+.feature .quantity{
+    width: 100%;
+    font-size: 11px;
+    margin: 10px auto 8px;
+}
+
+.feature .progressbar{     
+    width: 95%;
+}
+
+
+/*------------------------------- SHOP -----------------------------*/
+
+.shop .dropdown-btn{
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.shop .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 60px;
+    text-align: center;
+}
+
+.shop .card{
+    width: 285px;
+    text-align: center;
+    margin: 100px 15px 30px;
+    position: relative;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.shop .card:hover{
+    background-color: #FF6B00;
+}
+
+.shop .card img{
+    margin-top: -75px;
+}
+
+.shop .cart-btn{
+    width: 120px;
+    font-size: 15px;
+    background-color: #000;
+}
+
+/*------------------------------- ABOUT -----------------------------*/
+
+.about h1{
+    font-family: 'Belleza', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about .info{
+    font-family: 'Bellefair';
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    text-indent: 50px;
+    text-transform: uppercase;  
+}
+
+.about .DK-img{
+    margin-top: -100px;
+    margin-left: -20px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+@media (max-width: 1199.98px) { 
+    .DK-img{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) { 
+    
+    .row22{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px) { 
+    .profile{
+        visibility: hidden;
+    }
+    
+    .row21{
+        visibility: hidden;
+    }
+}
+
+
+
